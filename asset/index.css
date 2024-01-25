@@ -16,25 +16,31 @@
 
 * {
     font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
 }
 
 .img-border {
     border-radius: 8px !important;
 }
 
-/* .header-area {
+.all-hero {
+    margin-top: 90px;
+}
+
+.header-area {
     position: absolute;
-    background-color: transparent;
+    background-color: var(--bg-primary);
     top: 0;
     left: 0;
     right: 0;
     z-index: 100;
-    -webkit-transition: all .5s ease 0s;
-} */
-.header-area {
-    background: var(--bg-primary);
-    transition: all .5s ease-in-out;
+    transition: all .5s ease 0s;
 }
+
+/* .header-area {
+    background: var(--bg-primary);
+    transition: all 1s ease-in-out 0s;
+} */
 
 .sticky {
     position: fixed;
@@ -44,11 +50,21 @@
     height: 6rem;
     z-index: 100;
     padding-top: 20px;
-    transition: all .5s ease 0s;
-
+    transition: all 1s ease 0s;
+    animation: navbar 0.3s ease;
     background-color: #F3FFEC;
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
+}
+
+@keyframes navbar {
+    0% {
+        transform: translateY(-100%);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
 }
 
 .nav-content {
@@ -201,7 +217,9 @@
 /* ======================== */
 /* ======================== */
 /* ================================= hero section ============================== */
-.hero-section {
+.hero-section {}
+
+.home-hero {
     display: flex;
     justify-content: center;
     align-items: center;
