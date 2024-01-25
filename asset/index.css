@@ -53,8 +53,6 @@
     transition: all 1s ease 0s;
     animation: navbar 0.3s ease;
     background-color: #F3FFEC;
-    border-bottom-left-radius: 50px;
-    border-bottom-right-radius: 50px;
 }
 
 @keyframes navbar {
@@ -218,6 +216,21 @@
 /* ======================== */
 /* ================================= hero section ============================== */
 .hero-section {}
+
+@media(min-width:1441px) {
+    .hero-images {
+        /* height: 750px !important; */
+    }
+
+    .hero-img {
+        height: 370px;
+    }
+
+    .hero-img-logo {
+        width: 85%;
+    }
+
+}
 
 .home-hero {
     display: flex;
@@ -682,7 +695,7 @@
 
 .footer-content {
     padding: 50px 0px;
-    border-top: 1px solid #44444457;
+    border-top: 1px solid #44444436;
 }
 
 .footer-li {
@@ -695,6 +708,22 @@
     font-weight: 400;
     line-height: 21px;
     text-decoration: none;
+    color: var(--primary);
+}
+
+.f-link {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-decoration: none;
+    color: var(--primary);
+}
+
+.f-link:hover {
+    color: var(--main);
+}
+
+.f-address:hover {
     color: var(--primary);
 }
 

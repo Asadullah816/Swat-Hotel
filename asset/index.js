@@ -12,7 +12,7 @@ const nav_header = document.querySelector(".header-area");
 //     threshold: "",
 // });
 window.addEventListener('scroll', function () {
-    if (window.scrollY > hero_section.offsetTop) {
+    if (window.scrollY > hero_section.offsetTop - 100) {
         nav_header.classList.add("sticky");
     }
     else {
@@ -21,5 +21,5 @@ window.addEventListener('scroll', function () {
 
 })
 
-observer.observe(hero_section);
+// observer.observe(hero_section);
 

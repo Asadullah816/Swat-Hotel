@@ -38,6 +38,7 @@
     line-height: 44px;
     text-align: center;
     color: var(--primary);
+
 }
 
 .about-content p {
@@ -47,6 +48,7 @@
     letter-spacing: -0.015em;
     text-align: center;
     color: var(--primary);
+    padding-top: 12px;
 }
 
 /* ================================================================ ABOUT PARA SECTION ====================================== */
@@ -78,7 +80,7 @@
 }
 
 .about-icons {
-    margin: 30px 0px;
+    margin: 40px 0px;
 }
 
 .about-icon {
@@ -91,7 +93,7 @@
     font-weight: 500;
     line-height: 24px;
     letter-spacing: -0.015em;
-    text-align: justify;
+    text-align: left;
     padding: 0px 40px 0px 30px;
 }
 
@@ -160,32 +162,41 @@
 }
 
 @media(max-width:1023px) {
-    .about-para-img{
+    .about-para-img {
         padding-top: 40px;
     }
-    .about-icon-para p{
+
+    .about-icon-para p {
         padding: 0px;
         padding-left: 15px;
     }
-    .gatway-content h2{
+
+    .gatway-content h2 {
         padding: 0px;
     }
-    .about-para-section,.about-icon-section,.gatway-section{
+
+    .about-para-section,
+    .about-icon-section,
+    .gatway-section {
         margin-top: 150px;
     }
-    .gatway-content h2{
+
+    .gatway-content h2 {
         font-size: 30px;
         line-height: 48px;
     }
 }
-@media(max-width:360px){
-    p{
+
+@media(max-width:360px) {
+    p {
         font-size: 14px !important;
     }
-    .about-content h2{
+
+    .about-content h2 {
         font-size: 33px;
     }
-    .gatway-content h2{
+
+    .gatway-content h2 {
         font-size: 22px;
         line-height: 40px;
     }
