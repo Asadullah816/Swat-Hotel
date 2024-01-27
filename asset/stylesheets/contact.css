@@ -186,6 +186,21 @@
     }
 }
 
+@media(max-width:767px) {
+    iframe {
+        height: 500pxgi;
+    }
+
+    .form-input {
+        margin-top: 12px;
+        height: 50px;
+    }
+
+    .form-input-text {
+        margin-top: 12px;
+        max-height: 200px;
+    }
+}
 
 @media(max-width:424px) {
     .contact-info {
