@@ -133,7 +133,7 @@
 
 .gatway-btn a:hover {
     background: transparent;
-    color: var(--main);
+    border-color: white;
 }
 
 @media(max-width:1600px) {
