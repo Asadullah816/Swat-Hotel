@@ -188,7 +188,7 @@
 
 @media(max-width:767px) {
     iframe {
-        height: 500pxgi;
+        height: 500px;
     }
 
     .form-input {
