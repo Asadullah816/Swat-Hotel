@@ -3,9 +3,21 @@
         line-height: 42px;
     }
 
+    .hero-images {
+        padding: 0px 90px;
+    }
+
     .hero-text h2 {
-        font-size: 70px;
+        font-size: 62px;
         line-height: 72px;
+    }
+
+    .hero {
+        margin-top: 25px !important;
+    }
+
+    .hero-text {
+        padding: 15px 0px;
     }
 
     .hero-logo-img {
@@ -13,7 +25,7 @@
     }
 
     .hero-text p {
-        padding: 15px 80px 0px 0px;
+        padding: 8px 80px 0px 0px;
     }
 
     .hero-btn {
@@ -23,17 +35,33 @@
     .slider {
         width: 95%;
     }
+
+    .flickity-prev-next-button.next {
+        right: -20px;
+    }
+
+    .flickity-prev-next-button.previous {
+        left: -25px;
+    }
+
+    .conf-img {
+        width: 100%;
+    }
 }
 
 @media(max-width: 1270px) {
     .mid-link {
         margin: 0px 7px;
     }
-
+    .hero-images{
+        padding: 0px 10px;
+    }
     .hero-text p {
         padding-right: 0px;
     }
-
+    .hero-text p{
+        padding: 20px 20px 20px 0px;
+    }
     .flickity-prev-next-button.next {
         right: -8px;
     }
