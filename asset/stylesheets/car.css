@@ -1,0 +1,15 @@
+.map-section {
+    margin-top: 150px;
+}
+
+@media(max-width:1280px) {
+    iframe {
+        height: 440px;
+    }
+}
+
+@media(max-width:767px) {
+    iframe {
+        height: 500px;
+    }
+}
