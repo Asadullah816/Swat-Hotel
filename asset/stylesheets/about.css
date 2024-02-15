@@ -187,6 +187,16 @@
     }
 }
 
+@media(max-width:767px) {
+    .about-row {
+        flex-direction: column-reverse;
+    }
+
+    .about-para-section {
+        margin-top: 100px;
+    }
+}
+
 @media(max-width:360px) {
     p {
         font-size: 14px !important;

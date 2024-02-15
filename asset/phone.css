@@ -362,6 +362,33 @@
     .rest-content h2 {
         text-align: center;
     }
+
+    .slider {
+        padding: 0px !important;
+    }
+
+    .slider-col {
+        padding: 0px 3px;
+    }
+
+    .rest-images-row {
+        width: 100%;
+        margin: auto;
+        padding: 0px;
+    }
+
+    .conf-img {
+        padding: 0px 2px;
+    }
+
+    .ts-sm {
+        width: 25% !important;
+    }
+
+    .ts-col {
+        width: 75%;
+        padding: 1px !important;
+    }
 }
 
 @media(max-width:424px) {

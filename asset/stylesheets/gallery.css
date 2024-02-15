@@ -72,6 +72,10 @@
         padding: 0px 12px;
         margin-top: 25px;
     }
+
+    .gallery-section {
+        margin-top: 100px;
+    }
 }
 
 @media(max-width:767px) {
