@@ -199,7 +199,13 @@
     .room-content-col {
         padding: 50px 18px;
     }
-    .room-image img{
+
+    .room-image img {
         height: auto;
+    }
+
+    .room-row {
+        margin-top: 24px;
+        flex-direction: column-reverse;
     }
 }

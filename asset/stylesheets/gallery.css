@@ -78,4 +78,8 @@
     .gallery-image {
         padding: 0px 10px;
     }
+
+    .gallery-section {
+        margin-top: 100px;
+    }
 }
