@@ -38,7 +38,17 @@
                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div class="navbar-nav">
                             <a class="nav-link mid-link " aria-current="page" href="index.html">HOME</a>
-                            <a class="nav-link mid-link active" href="room.html">ROOMS</a>
+                            <div class="dropdown ">
+                                <button class="active nav-link mid-link" type="button" id="dropdownMenuButton"
+                                    data-mdb-toggle="dropdown" aria-expanded="false">
+                                    Rooms
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <li><a class="dropdown-item" href="room.html">Rooms</a></li>
+                                    <li><a class="dropdown-item" href="check.html">Booking</a></li>
+
+                                </ul>
+                            </div>
                             <a class="nav-link mid-link" href="restaurant.html">RESTAURANT</a>
                             <a class="nav-link mid-link" href="gallery.html">GALLERY</a>
                             <a class="nav-link mid-link" href="tourist.html">TOURIST SPOTS</a>
@@ -87,13 +97,11 @@
                     <div class="row w-100">
                         <div class="col-sm-6 col-12 form-input form-input-1">
                             <label for="checkin">Check In Date</label>
-                            <input type="text" onblur="(this.type='text')" onfocus="(this.type='date')" name="checkin"
-                                placeholder="Select Date" id="date">
+                            <input type="date" name="checkin" placeholder="Select Date" id="date">
                         </div>
                         <div class="col-sm-6 col-12 form-input d-flex justufy-content-end flex-column form-input-2">
                             <label for="checkin">Check Out Date</label>
-                            <input type="text" class="align-self-end" onblur="(this.type='text')"
-                                onfocus="(this.type='date')" name="checkin" placeholder="Select Date">
+                            <input type="date" name="checkin" placeholder="Select Date">
                         </div>
                         <div class="col-sm-6 col-12 form-input form-input-1">
                             <label for="checkin">Adults </label>

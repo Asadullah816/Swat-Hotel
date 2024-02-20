@@ -52,7 +52,7 @@
     line-height: 44px;
     letter-spacing: 0em;
     color: var(--primary);
-    padding-bottom: 60px;
+    padding-bottom: 10px;
 
 }
 
@@ -89,7 +89,7 @@
 }
 
 .map-section {
-    margin-top: 150px;
+    margin-top: 200px;
 }
 
 .check-btn {

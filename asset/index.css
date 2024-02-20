@@ -42,6 +42,17 @@
     transition: all 1s ease-in-out 0s;
 } */
 
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+    background-color: var(--bg-primary);
+}
+
+.dropdown>.dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+}
+
 .sticky {
     position: fixed;
     top: 0;
