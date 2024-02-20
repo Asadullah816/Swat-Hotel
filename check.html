@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="asset/index.css">
     <link rel="stylesheet" href="asset/phone.css">
     <link rel="stylesheet" href="asset/stylesheets/room.css">
+    <link rel="stylesheet" href="asset/stylesheets/booking.css">
     <link rel="shortcut icon" href="asset/images/mainlogo.png" type="image/x-icon">
 </head>
 
@@ -70,111 +71,40 @@
             <div class="container">
                 <div class="tour-content d-flex justify-content-start align-items-center flex-column">
                     <h2>
-                        Beautiful Rooms
+                        Room Booking
                     </h2>
-                    <p>Discover Tranquility in Swat Hotel's Luxurious Accommodations</p>
+
                 </div>
             </div>
         </div>
     </div>
     <!-- ============================================== -->
-    <div class="container-fluid room-section">
-        <div class="row room-row">
-            <div class="col-xl-6 col-12 room-content-col">
-                <div class="room-content">
-                    <h4>
-                        Deluxe Rooms
-                    </h4>
-                    <p>Experience luxury and comfort like never before in our Deluxe room at Swat Hotel. Designed with
-                        your utmost satisfaction
-                        in mind, our Deluxe room offers a haven of relaxation amidst the picturesque landscapes of Swat
-                        Valley.</p>
-                    <h5>
-                        Facilities offered in our Deluxe room include:
-                    </h5>
-                    <ol class="room-ol">
-                        <li>
-                            Plush king-sized bed for a restful night's sleep.
-                        </li>
-                        <li>
-                            Spacious seating area to unwind and enjoy the views.
-                        </li>
-                        <li>
-                            En-suite bathroom with modern fixtures and luxurious amenities. </li>
-                        <li>
-                            High-speed Wi-Fi access to stay connected during your stay. </li>
-                        <li>
-                            Flat-screen TV with cable channels for entertainment. </li>
-                        <li>
-                            In-room safe for secure storage of your valuables. </li>
-                        <li>
-                            Mini-bar stocked with refreshments for your convenience. </li>
-                        <li>
-                            Coffee and tea making facilities for a rejuvenating pick-me-up. </li>
-                        <li>
-                            Work desk for those who need to catch up on tasks. </li>
-                        <li>
-                            Individually controlled air conditioning for personalized comfort. </li>
-
-                    </ol>
-                    <p>With these amenities and more, our Deluxe room promises a truly memorable stay, where you can
-                        relax and rejuvenate in
-                        style.</p>
-
-                    <div class="room-btn">
-                        <a class="room-buttom" href="check.html">book your stay</a>
+    <div class="container check-section">
+        <div class="check-form">
+            <form action="">
+                <div class="form-content d-flex justify-content-center align-items-center flex-column">
+                    <h1 class="check-heading">Check Room Availability</h1>
+                    <div class="row w-100">
+                        <div class="col-sm-6 col-12 form-input form-input-1">
+                            <label for="checkin">Check In Date</label>
+                            <input type="text" onblur="(this.type='text')" onfocus="(this.type='date')" name="checkin"
+                                placeholder="Select Date" id="date">
+                        </div>
+                        <div class="col-sm-6 col-12 form-input d-flex justufy-content-end flex-column form-input-2">
+                            <label for="checkin">Check Out Date</label>
+                            <input type="text" class="align-self-end" onblur="(this.type='text')"
+                                onfocus="(this.type='date')" name="checkin" placeholder="Select Date">
+                        </div>
                     </div>
+                    <!-- <button type="submit" class="check-btn">CHECK ROOM</button> -->
+                    <a class="check-btn" href="rooms.html">CHECK
+                        ROOM</a>
                 </div>
-            </div>
-            <div class="col-xl-6 col-12 room-image-col p-0">
-                <div class="room-image ps-xl-5">
-                    <img src="./asset/images/room-image.png" alt="">
-                </div>
-            </div>
+            </form>
         </div>
     </div>
     <!-- =================================================================== -->
-    <div class="container ">
-        <div class="gallery-section">
-            <h4>
-                Room Pictures
-            </h4>
-            <div class="row">
-                <div class="col-md-6 col-12">
-                    <div class="row images">
-                        <div class="col-12 gallery-image">
-                            <img src="asset/images/roomimg1.png" alt="">
-                        </div>
-                        <div class="col-12 gallery-image">
-                            <img src="asset/images/roomimg3.png" alt="">
-                        </div>
-                        <div class="col-12 gallery-image">
-                            <img src="asset/images/roomimg4.png" alt="">
-                        </div>
-                        <div class="col-12 gallery-image">
-                            <img src="asset/images/roomimg5.png" alt="">
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-12 gallery-right">
-                    <div class="row images">
-                        <div class="col-12 gallery-image2">
-                            <img src="asset/images/roomimg2.png" alt="">
-                        </div>
-                        <div class="col-12 gallery-image2">
-                            <img src="asset/images/roomimg6.png" alt="">
-                        </div>
-                        <div class="col-12 gallery-image2">
-                            <img src="asset/images/roomimg7.png" alt="">
-                        </div>
-                        <div class="col-12 gallery-image2">
-                            <img src="asset/images/roomimg8.png" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+
 
 
     <!-- =========================== FOOTER SECTION ======================== -->
