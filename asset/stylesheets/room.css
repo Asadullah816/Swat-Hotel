@@ -145,6 +145,7 @@
     }
 
     .room-image img {
+        object-fit: cover;
         height: 750px;
     }
 
