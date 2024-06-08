@@ -115,7 +115,7 @@
     left: 11px;
     background-color: rgba(0, 0, 0, 0.653);
     color: white;
-    width: 91%;
+    width: 92%;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -157,6 +157,7 @@
 
     .rest-overlay {
         left: 29px;
+        width: 91%;
     }
 }
 
