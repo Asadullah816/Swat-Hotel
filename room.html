@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Swat Hotel</title>
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
@@ -44,7 +45,7 @@
                                 </button>
                                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                                     <li><a class="dropdown-item" href="room.html">Rooms</a></li>
-                                    <li><a class="dropdown-item" href="check.html">Booking</a></li>
+                                    <li><a class="dropdown-item" href="bookingForm.html">Booking</a></li>
 
                                 </ul>
                             </div>
@@ -102,49 +103,65 @@
                     <h5>
                         Facilities offered in our Deluxe room include:
                     </h5>
-                    <ol class="room-ol">
-                        <li>
-                            Plush king-sized bed for a restful night's sleep.
+                    <ul class="room-ol">
+                        <li class="meter">
+                            18 m²
                         </li>
                         <li>
-                            Spacious seating area to unwind and enjoy the views.
+                            Balcony
                         </li>
                         <li>
-                            En-suite bathroom with modern fixtures and luxurious amenities. </li>
+                            View </li>
                         <li>
-                            High-speed Wi-Fi access to stay connected during your stay. </li>
+                            Bath </li>
                         <li>
-                            Flat-screen TV with cable channels for entertainment. </li>
+                            Air conditioning</li>
                         <li>
-                            In-room safe for secure storage of your valuables. </li>
+                            Flat-screen TV</li>
                         <li>
-                            Mini-bar stocked with refreshments for your convenience. </li>
-                        <li>
-                            Coffee and tea making facilities for a rejuvenating pick-me-up. </li>
-                        <li>
-                            Work desk for those who need to catch up on tasks. </li>
-                        <li>
-                            Individually controlled air conditioning for personalized comfort. </li>
+                            Terrace </li>
 
-                    </ol>
-                    <p>With these amenities and more, our Deluxe room promises a truly memorable stay, where you can
+
+                    </ul>
+                    <!-- <p>With these amenities and more, our Deluxe room promises a truly memorable stay, where you can
                         relax and rejuvenate in
-                        style.</p>
+                        style.</p> -->
 
                     <div class="room-btn">
-                        <a class="room-buttom" href="check.html">book your stay</a>
+                        <a class="room-buttom" href="rooms.html">book your stay</a>
                     </div>
                 </div>
             </div>
             <div class="col-xl-6 col-12 room-image-col p-0">
                 <div class="room-image ps-xl-5">
-                    <img src="./asset/images/room-image.png" alt="">
+                    <img class="nroom-img show" src="./asset/images/r1.jpg" alt="">
+                </div>
+                <div class="room-image ps-xl-5">
+                    <img class="nroom-img" src="./asset/images/r2.jpg" alt="">
+                </div>
+                <div class="room-image ps-xl-5">
+                    <img class="nroom-img" src="./asset/images/r3.jpg" alt="">
+                </div>
+                <div class="room-image ps-xl-5">
+                    <img class="nroom-img" src="./asset/images/r4.jpg" alt="">
+                </div>
+                <div class="room-image ps-xl-5">
+                    <img class="nroom-img" src="./asset/images/r5.jpg" alt="">
+                </div>
+
+                <div class="room-slide-btn next-btn"><button class="next "><i
+                            class="fa-solid fa-arrow-right fa-fw"></i></button>
+                </div>
+                <div class="room-slide-btn  prev-btn"><button class="prev "><i
+                            class="fa-solid fa-arrow-left fa-fw"></i></button>
                 </div>
             </div>
+
         </div>
+
     </div>
     <!-- =================================================================== -->
-    <div class="container ">
+    <!-- <div class="container ">
         <div class="gallery-section">
             <h4>
                 Room Pictures
@@ -184,7 +201,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
 
     <!-- =========================== FOOTER SECTION ======================== -->
