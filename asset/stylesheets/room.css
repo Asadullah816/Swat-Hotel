@@ -392,3 +392,14 @@
     width: 16px;
     ;
 }
+
+.room-price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.room-price span {
+    color: var(--main);
+    font-size: 30px;
+}
