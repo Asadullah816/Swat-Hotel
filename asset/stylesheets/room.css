@@ -86,7 +86,8 @@
 }
 
 .room-ol {
-    padding-left: 20px;
+    padding-left: 0px;
+
 }
 
 .room-image img {
@@ -360,12 +361,12 @@
 
 .next-btn {
     right: 20px;
-    top: 40%;
+    top: 48%;
 }
 
 .prev-btn {
     left: 60px;
-    top: 40%;
+    top: 48%;
 }
 
 .room-btn {
@@ -383,15 +384,11 @@
     align-items: center;
 }
 
-/* =================== */
-/* =================== */
-/* =================== */
-.next-btn2 {
-    top: 48%;
-    right: 50px;
+.feature-icon {
+    padding: 4px 9px;
 }
 
-.prev-btn2 {
-    left: 13px;
-    top: 48%;
+.feature-icon img {
+    width: 16px;
+    ;
 }
