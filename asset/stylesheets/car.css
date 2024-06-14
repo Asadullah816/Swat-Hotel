@@ -54,7 +54,14 @@
     iframe {
         height: 440px;
     }
+
+    .car-main-image img {
+        object-fit: cover;
+        height: 603px;
+    }
 }
+
+
 
 @media(max-width:767px) {
     iframe {
@@ -162,6 +169,10 @@
     .car-col:nth-child(even) .car-overlay {
         width: 96.4%;
     } */
+    .car-main-image img {
+        object-fit: cover;
+        height: 100%;
+    }
 
     .car-col:nth-child(odd) .car-overlay {
         width: 100%;
@@ -179,5 +190,17 @@
 
     .car-col {
         margin-top: 20px;
+    }
+}
+
+@media(max-width:1020px) {
+    .car-overlay-content p {
+        font-size: 16px;
+        padding: 5px 8px;
+    }
+
+    .car-overlay-content h4 {
+        font-size: 26px;
+        /* padding: 5px 8px; */
     }
 }
